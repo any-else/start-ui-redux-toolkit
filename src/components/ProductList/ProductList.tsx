@@ -3,6 +3,7 @@ import { IProduct } from "../../types/Product";
 import ProductItem from "../ProductItem/ProductItem";
 const productData: IProduct[] = [
   {
+    id: 0,
     productName: "Đồng Hồ Điện Tử Đa Năng",
     productImage:
       "https://down-vn.img.susercontent.com/file/sg-11134201-7qvg9-lg3i51kfwxvl7b",
@@ -11,6 +12,7 @@ const productData: IProduct[] = [
     productQuantity: 100,
   },
   {
+    id: 1,
     productName: "Đèn led gắn bánh xe ô tô",
     productImage:
       "https://down-vn.img.susercontent.com/file/sg-11134201-22120-fxijk5dd0qkve5",

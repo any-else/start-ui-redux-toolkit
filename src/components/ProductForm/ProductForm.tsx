@@ -6,6 +6,7 @@ interface IProductFormProps {
 }
 
 const initState: IProduct = {
+  id: null,
   productName: "",
   productPrice: "",
   productCategory: "",
